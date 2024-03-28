@@ -1,0 +1,161 @@
+[0m15:16:59.273096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AAA18710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AAA187A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AAA184D0>]}
+
+
+============================== 15:16:59.279094 | a1e1ecd6-a3b6-4b53-a65c-7139f97380d1 ==============================
+[0m15:16:59.279094 [info ] [MainThread]: Running with dbt=1.7.10
+[0m15:16:59.280097 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Son Nguyen\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:16:59.281100 [info ] [MainThread]: dbt version: 1.7.10
+[0m15:16:59.282095 [info ] [MainThread]: python version: 3.12.2
+[0m15:16:59.284095 [info ] [MainThread]: python path: C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\venv\Scripts\python.exe
+[0m15:16:59.285102 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:16:59.441091 [info ] [MainThread]: Using profiles dir at C:\Users\Son Nguyen\.dbt
+[0m15:16:59.442200 [info ] [MainThread]: Using profiles.yml file at C:\Users\Son Nguyen\.dbt\profiles.yml
+[0m15:16:59.443131 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\dbt_project.yml
+[0m15:16:59.444100 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m15:16:59.446132 [debug] [MainThread]: Command `dbt debug` failed at 15:16:59.446132 after 0.35 seconds
+[0m15:16:59.447138 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AA914CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AAA3FFE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AAAB60C0>]}
+[0m15:16:59.448109 [debug] [MainThread]: Flushing usage events
+[0m15:18:24.921226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6690783B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6690782F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D669078110>]}
+
+
+============================== 15:18:24.926225 | 40498df1-8050-40b2-8d8e-cdf6bc8f9d17 ==============================
+[0m15:18:24.926225 [info ] [MainThread]: Running with dbt=1.7.10
+[0m15:18:24.928231 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Son Nguyen\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init rax_dbt_demo_project', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:18:24.930228 [debug] [MainThread]: Starter project path: C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\venv\Lib\site-packages\dbt\include\starter_project
+[0m15:18:24.967228 [info ] [MainThread]: 
+Your new dbt project "rax_dbt_demo_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:18:24.972229 [info ] [MainThread]: Setting up your profile.
+[0m15:20:12.570086 [info ] [MainThread]: Profile rax_dbt_demo_project written to C:\Users\Son Nguyen\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:20:12.575081 [debug] [MainThread]: Command `dbt init` succeeded at 15:20:12.574120 after 107.78 seconds
+[0m15:20:12.576077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D668CCFC80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D66911D580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D66905BEF0>]}
+[0m15:20:12.580155 [debug] [MainThread]: Flushing usage events
+[0m15:20:20.684107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF65418920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF65418BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF65418A10>]}
+
+
+============================== 15:20:20.689105 | 36f039f8-7fcf-4ffe-b482-7214a7217ef2 ==============================
+[0m15:20:20.689105 [info ] [MainThread]: Running with dbt=1.7.10
+[0m15:20:20.690110 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Son Nguyen\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:20:20.691106 [info ] [MainThread]: dbt version: 1.7.10
+[0m15:20:20.692148 [info ] [MainThread]: python version: 3.12.2
+[0m15:20:20.693107 [info ] [MainThread]: python path: C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\venv\Scripts\python.exe
+[0m15:20:20.695108 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:20:20.828221 [info ] [MainThread]: Using profiles dir at C:\Users\Son Nguyen\.dbt
+[0m15:20:20.829393 [info ] [MainThread]: Using profiles.yml file at C:\Users\Son Nguyen\.dbt\profiles.yml
+[0m15:20:20.830393 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\dbt_project.yml
+[0m15:20:20.831402 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m15:20:20.834428 [debug] [MainThread]: Command `dbt debug` failed at 15:20:20.833395 after 0.32 seconds
+[0m15:20:20.834428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF6543FF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF6519BD70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF651F32C0>]}
+[0m15:20:20.835394 [debug] [MainThread]: Flushing usage events
+[0m15:21:17.351053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236483784D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023648378470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023648378350>]}
+
+
+============================== 15:21:17.356049 | 3e222d76-11ee-4107-a60f-2e7bb1746009 ==============================
+[0m15:21:17.356049 [info ] [MainThread]: Running with dbt=1.7.10
+[0m15:21:17.357175 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Son Nguyen\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:21:17.358050 [info ] [MainThread]: dbt version: 1.7.10
+[0m15:21:17.359054 [info ] [MainThread]: python version: 3.12.2
+[0m15:21:17.360108 [info ] [MainThread]: python path: C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\venv\Scripts\python.exe
+[0m15:21:17.361054 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:21:17.486913 [info ] [MainThread]: Using profiles dir at C:\Users\Son Nguyen\.dbt
+[0m15:21:17.487472 [info ] [MainThread]: Using profiles.yml file at C:\Users\Son Nguyen\.dbt\profiles.yml
+[0m15:21:17.487873 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\dbt_project.yml
+[0m15:21:17.488874 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m15:21:17.490874 [debug] [MainThread]: Command `dbt debug` failed at 15:21:17.490874 after 0.25 seconds
+[0m15:21:17.491883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236479BCCB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023648417650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023647ECBD70>]}
+[0m15:21:17.492880 [debug] [MainThread]: Flushing usage events
+[0m15:22:28.899747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E08388380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E08388320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E08388200>]}
+
+
+============================== 15:22:28.904801 | 33deb79a-e7ee-4ba9-9360-660be0efbfcf ==============================
+[0m15:22:28.904801 [info ] [MainThread]: Running with dbt=1.7.10
+[0m15:22:28.905745 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Son Nguyen\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:22:28.907747 [info ] [MainThread]: dbt version: 1.7.10
+[0m15:22:28.908751 [info ] [MainThread]: python version: 3.12.2
+[0m15:22:28.910748 [info ] [MainThread]: python path: C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\venv\Scripts\python.exe
+[0m15:22:28.911751 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:22:29.065753 [info ] [MainThread]: Using profiles dir at C:\Users\Son Nguyen\.dbt
+[0m15:22:29.066716 [info ] [MainThread]: Using profiles.yml file at C:\Users\Son Nguyen\.dbt\profiles.yml
+[0m15:22:29.067784 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\dbt_project.yml
+[0m15:22:29.069715 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m15:22:29.072726 [debug] [MainThread]: Command `dbt debug` failed at 15:22:29.071717 after 0.30 seconds
+[0m15:22:29.073723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E07FA3530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E07EDF3E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E083AFF20>]}
+[0m15:22:29.074717 [debug] [MainThread]: Flushing usage events
+[0m15:23:49.721063 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001690217AAE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001690217B4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001690217BFE0>]}
+
+
+============================== 15:23:49.726379 | bf15e6cb-a6d6-4b96-bddc-fae4833e2535 ==============================
+[0m15:23:49.726379 [info ] [MainThread]: Running with dbt=1.7.10
+[0m15:23:49.727064 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Son Nguyen\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m15:23:49.729068 [info ] [MainThread]: dbt version: 1.7.10
+[0m15:23:49.730063 [info ] [MainThread]: python version: 3.12.2
+[0m15:23:49.731163 [info ] [MainThread]: python path: C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\venv\Scripts\python.exe
+[0m15:23:49.733092 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:23:49.868374 [info ] [MainThread]: Using profiles dir at C:\Users\Son Nguyen\.dbt
+[0m15:23:49.869421 [info ] [MainThread]: Using profiles.yml file at C:\Users\Son Nguyen\.dbt\profiles.yml
+[0m15:23:49.870373 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\dbt_project.yml
+[0m15:23:49.872437 [info ] [MainThread]: adapter type: postgres
+[0m15:23:49.874376 [info ] [MainThread]: adapter version: 1.7.10
+[0m15:23:49.875374 [info ] [MainThread]: Configuration:
+[0m15:23:49.876376 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:23:49.878376 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:23:49.879376 [info ] [MainThread]: Required dependencies:
+[0m15:23:49.880375 [debug] [MainThread]: Executing "git --help"
+[0m15:23:49.925374 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:23:49.925374 [debug] [MainThread]: STDERR: "b''"
+[0m15:23:49.926459 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:23:49.927375 [info ] [MainThread]: Connection:
+[0m15:23:49.929381 [info ] [MainThread]:   host: localhost
+[0m15:23:49.933400 [info ] [MainThread]:   port: 5432
+[0m15:23:49.937376 [info ] [MainThread]:   user: postgres
+[0m15:23:49.963378 [info ] [MainThread]:   database: postgres
+[0m15:23:49.964402 [info ] [MainThread]:   schema: dbt_dev
+[0m15:23:49.965461 [info ] [MainThread]:   connect_timeout: 10
+[0m15:23:49.967375 [info ] [MainThread]:   role: None
+[0m15:23:49.968378 [info ] [MainThread]:   search_path: None
+[0m15:23:49.969376 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:23:49.971378 [info ] [MainThread]:   sslmode: None
+[0m15:23:49.973377 [info ] [MainThread]:   sslcert: None
+[0m15:23:49.974386 [info ] [MainThread]:   sslkey: None
+[0m15:23:49.977376 [info ] [MainThread]:   sslrootcert: None
+[0m15:23:49.979377 [info ] [MainThread]:   application_name: dbt
+[0m15:23:49.982381 [info ] [MainThread]:   retries: 1
+[0m15:23:49.984769 [info ] [MainThread]: Registered adapter: postgres=1.7.10
+[0m15:23:49.989376 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:23:49.991379 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:23:49.992377 [debug] [MainThread]: On debug: select 1 as id
+[0m15:23:49.993378 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:23:50.024377 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m15:23:50.025376 [debug] [MainThread]: On debug: Close
+[0m15:23:50.026679 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:23:50.028381 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:23:50.030711 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Son Nguyen\OneDrive - Rackspace Inc\RAX\Github\rax_dbt_capstone\dbt_project.yml> not found
+
+[0m15:23:50.036377 [debug] [MainThread]: Command `dbt debug` failed at 15:23:50.035376 after 0.44 seconds
+[0m15:23:50.036377 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:23:50.037688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016901EFA240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016901CCEDB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016902235190>]}
+[0m15:23:50.038375 [debug] [MainThread]: Flushing usage events
